@@ -1,0 +1,37 @@
+﻿  glad.c
+  texture_loader.cpp
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\texture_loader.cpp(165): warning C4838: conversion from 'UINT' to 'INT' requires a narrowing conversion
+  Main.cpp
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\tilemetrics.h(7): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\tilemetrics.h(20): warning C4091: 'static ': ignored on left of 'TileMetrics' when no variable is declared
+c:\users\juggernaut\documents\opengl\common\include\learnopengl\shader_s.h(52): warning C4101: 'infoLog': unreferenced local variable
+c:\users\juggernaut\documents\opengl\common\include\learnopengl\shader_s.h(51): warning C4101: 'success': unreferenced local variable
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\main.cpp(179): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\main.cpp(197): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\main.cpp(212): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+c:\users\juggernaut\documents\opengl\landmass\map - (12) highlighting\map\main.cpp(231): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "class TileCoordinates __cdecl GetTilePostion(struct GLFWwindow *)" (?GetTilePostion@@YA?AVTileCoordinates@@PEAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function main
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl fipImage::fipImage(enum FREE_IMAGE_TYPE,unsigned int,unsigned int,unsigned int)" (__imp_??0fipImage@@QEAA@W4FREE_IMAGE_TYPE@@III@Z) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl fipImage::~fipImage(void)" (__imp_??1fipImage@@UEAA@XZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl fipImage::load(char const *,int)" (__imp_?load@fipImage@@QEAAHPEBDH@Z) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned int __cdecl fipImage::getWidth(void)const " (__imp_?getWidth@fipImage@@QEBAIXZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned int __cdecl fipImage::getHeight(void)const " (__imp_?getHeight@fipImage@@QEBAIXZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned char * __cdecl fipImage::accessPixels(void)const " (__imp_?accessPixels@fipImage@@QEBAPEAEXZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl fipImage::convertTo32Bits(void)" (__imp_?convertTo32Bits@fipImage@@QEAAHXZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+texture_loader.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl fipImage::flipVertical(void)" (__imp_?flipVertical@fipImage@@QEAAHXZ) referenced in function "unsigned int __cdecl fiLoadTexture(char const *)" (?fiLoadTexture@@YAIPEBD@Z)
+C:\Users\Juggernaut\Documents\OpenGL\Common\Libaries\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Juggernaut\Documents\OpenGL\Landmass\Map - (12) Highlighting\x64\Debug\Map.exe : fatal error LNK1120: 22 unresolved externals
